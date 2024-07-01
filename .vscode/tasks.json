@@ -1,0 +1,25 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: g++.exe arquivo de build ativo",
+			"command": "C:\\mingw64\\bin\\g++.exe",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-g",
+				"D:\\Users\\Caio\\Documents\\Projetos\\Cpp\\etc\\SistemaEscola\\main.cpp",
+				"-o",
+				"D:\\Users\\Caio\\Documents\\Projetos\\Cpp\\etc\\SistemaEscola\\SistemaEscola.exe"
+			],
+			"options": {
+				"cwd": "D:\\Users\\Caio\\Documents\\Projetos\\Cpp\\etc\\SistemaEscola\\cwd"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "compilador: C:\\mingw64\\bin\\g++.exe"
+		}
+	]
+}
